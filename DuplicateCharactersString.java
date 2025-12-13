@@ -5,6 +5,7 @@ public class DuplicateCharactersString {
         if (str == null || str.isEmpty()) {
             return;
         }
+
         HashMap<Character, Integer> freqMap = new HashMap<>();
 
         for (char ch : str.toCharArray()) {
